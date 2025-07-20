@@ -10,7 +10,6 @@ if ($_SESSION['admin_role'] !== 'super_admin' && $_SESSION['admin_role'] !== 'us
     header("Location: admin_dashboard.php");
     exit;
 }
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['block_user'])) {
         $user_id = (int)$_POST['user_id'];

@@ -7,7 +7,6 @@ if (!isset($_SESSION['admin_id']) || !in_array($_SESSION['admin_role'], ['super_
     header("Location: ../admin_login.php");
     exit;
 }
-
 // Получаем user_id из GET
 if (!isset($_GET['user_id'])) {
     echo "Пользователь не указан.";

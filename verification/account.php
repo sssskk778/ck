@@ -181,7 +181,6 @@ $specialization = $user['specialization'] ?? '—';
             </div>
         </div>
 
-
 <?php
 // Получаем все активные назначенные тесты (у которых срок сдачи еще не истек)
 $stmt = $pdo->prepare("

@@ -94,7 +94,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $scoreForQuestion = 0;
     }
 
-   
 
     $totalScore += $scoreForQuestion;
 

@@ -43,7 +43,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_question'])) {
 
     $message = "✅ Вопрос успешно добавлен.";
 }
-
 // Удаление вопроса
 if (isset($_GET['delete_question'])) {
     $qid = (int)$_GET['delete_question'];

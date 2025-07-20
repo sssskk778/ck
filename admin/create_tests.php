@@ -232,5 +232,4 @@ if (isset($_GET['delete_id'])) {
 ">Назад</a>
     </div>
 </body>
-
 </html>

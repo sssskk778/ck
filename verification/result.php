@@ -13,7 +13,6 @@ $userTestId = isset($_GET['user_test_id']) ? (int)$_GET['user_test_id'] : 0;
 if (!$userTestId) {
     die("Ошибка: попытка теста не найдена.");
 }
-
 $stmt = $pdo->prepare("
     SELECT ut.*, t.name, t.chat_link, t.group_link
     FROM user_tests ut
