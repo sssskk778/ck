@@ -233,7 +233,7 @@ CREATE TABLE `listeners` (
 --
 
 INSERT INTO `listeners` (`id`, `fio`, `email`, `education_level`, `university`, `faculty`, `group_name`, `direction_id`, `phone`, `image`, `created_at`, `updated_at`, `documents_number`, `is_foreign`, `specialization`, `birthday`, `country`, `time_edu`, `start_year`, `diplom_num`, `diplom_place`, `diplom_napr`, `diplom_year`, `vk`, `is_blocked`) VALUES
-(873, 'Тестова Юлия Александровна', 'yulya.98@mail.ru', 'Специалитет', 'ВолгГМУ', 'Институт общественного здоровья', '202', 7, '+7(000) 000-00-00', NULL, '2024-07-10 07:20:00', '2024-07-10 07:20:00', '168-748-253 24', 0, '37.05.01 Клиническая психология', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0);
+(873, 'Тестова Юлия Александровна', 'yulya.98@mail.ru', 'Специалитет', 'ВолгГМУ', 'Институт общественного здоровья', '202', 7, '8(000) 000-00-00', NULL, '2024-07-10 07:20:00', '2024-07-10 07:20:00', '168-748-253 24', 0, '37.05.01 Клиническая психология', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0);
 
 -- --------------------------------------------------------
 
