@@ -95,7 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             
             <div class="form-group">
                 <label for="phone">Телефон:</label>
-                <input type="text" id="phone" name="phone" required value="<?= htmlspecialchars($phone) ?>" placeholder="+7(___) ___-__-__">
+                <input type="text" id="phone" name="phone" required value="<?= htmlspecialchars($phone) ?>" placeholder="8(___) ___-__-__">
             </div>
 
             <button type="submit">Войти</button>
@@ -106,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <script>
         $(document).ready(function() {
             $('#phone').inputmask({
-                mask: '+7(999) 999-99-99',
+                mask: '8(999) 999-99-99',
                 placeholder: '_',
                 showMaskOnHover: true,
                 showMaskOnFocus: true,
@@ -115,7 +115,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             $('form').submit(function(e) {
                 var phone = $('#phone').val();
-                var phoneRegex = /^\+7\(\d{3}\) \d{3}-\d{2}-\d{2}$/;
+                var phoneRegex = /^8\(\d{3}\) \d{3}-\d{2}-\d{2}$/;
                 
                 if (!phoneRegex.test(phone)) {
                     alert('Некорректно набранный номер');
